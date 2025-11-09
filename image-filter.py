@@ -96,34 +96,3 @@ else:
     print("invalid mode")
 
 
-
-
-#from PIL import Image, ImageEnhance
-#import numpy as np
-
-# # source = input("what is the path to your image?: ")
-# color_limit = int(input("enter the no. of colors you want: "))
-# contrast = float(input("enter the amount of contrast you want, 1.5 is suggested: "))
-
-# # output_path = input("what is the path to your output location?: ")
-
-# # output_path = output_path + "\\output.png"
-
-
-# def process_image(source, output_path, color_limit, contrast):
-#     img = Image.open(source)
-
-#     if img.mode != 'RGB':
-#         img = img.convert('RGB')
-
-#     enhancer = ImageEnhance.Contrast(img)
-#     contrasted_img = enhancer.enhance(contrast)
-#     quantized_img = contrasted_img.quantize(colors=color_limit, dither=Image.Dither.FLOYDSTEINBERG)
-#     output_img = quantized_img.convert('RGB')
-#     output_img.save(output_path)
-#     print(f"Saved to {output_path}")
-
-#     output_img.show()
-    
-    
-# process_image(source, output_path, color_limit, contrast)
