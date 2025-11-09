@@ -50,14 +50,13 @@ You’ll need:
 ## 🧪 Examples
 
 ### 🖼️ Input
-![Input Image](./examples/input.png)
+![Input Image](./examples/2input.png)
 
 ### 🎨 Output
-![Output Image](./examples/output.png)
+![Output Image](./examples/2output.png)
 
 ### ⚙️ Parameters Used
 ```bash
-color_limit = 8
-contrast = 1.5
-mode = 2  # 1 = Default mode, 2 = Custom tint mode
-tint_color = (255, 150, 0)
+enter the no. of colors you want: 10
+enter the amount of contrast you want, 1.5 is suggested: 1.7
+enter 1 for default mode and 2 for custom color mode: 1
