@@ -50,6 +50,21 @@ You’ll need:
 ## 🧪 Examples
 
 ### 🖼️ Input
+![Input Image](./examples/1input.png)
+
+### 🎨 Output
+![Output Image](./examples/1output.png)
+
+### ⚙️ Parameters Used
+```bash
+enter the no. of colors you want: 10
+enter the amount of contrast you want, 1.5 is suggested: 1.7
+enter 1 for default mode and 2 for custom color mode: 1``
+```
+
+---
+
+### 🖼️ Input
 ![Input Image](./examples/2input.png)
 
 ### 🎨 Output
@@ -57,6 +72,32 @@ You’ll need:
 
 ### ⚙️ Parameters Used
 ```bash
-enter the no. of colors you want: 10
-enter the amount of contrast you want, 1.5 is suggested: 1.7
-enter 1 for default mode and 2 for custom color mode: 1
+enter the no. of colors you want: 6
+enter the amount of contrast you want, 1.5 is suggested: 1.5
+enter 1 for default mode and 2 for custom color mode: 2
+
+Enter your custom tint color (RGB values 0-255):
+Red (0-255): 255           
+Green (0-255): 26          
+Blue (0-255): 102          
+```
+
+---
+
+### 🖼️ Input
+![Input Image](./examples/3input.png)
+
+### 🎨 Output
+![Output Image](./examples/3output.png)
+
+### ⚙️ Parameters Used
+```bash
+enter the no. of colors you want: 6
+enter the amount of contrast you want, 1.5 is suggested: 1.5
+enter 1 for default mode and 2 for custom color mode: 2
+
+Enter your custom tint color (RGB values 0-255):
+Red (0-255): 122
+Green (0-255): 0
+Blue (0-255): 153
+```
