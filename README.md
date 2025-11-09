@@ -10,7 +10,7 @@ This was never meant to be a large-scale image editor or professional tool — j
 
 Before using this script:
 - There’s **no GUI**, only a **CLI**.
-- **Performance** depends on image size — larger images will take longer to process.
+- **Performance** depends on image size and process mode — larger images and custom tint will take longer to process. Some files can take upto a minute
 - There’s **no input validation**, so incorrect values might cause errors or crashes.
 - The project will **not be actively developed further**, but the repository will remain open for anyone who wants to experiment, fork, or modify it.
 
@@ -59,13 +59,13 @@ You’ll need:
 ```bash
 enter the no. of colors you want: 10
 enter the amount of contrast you want, 1.5 is suggested: 1.7
-enter 1 for default mode and 2 for custom color mode: 1``
+enter 1 for default mode and 2 for custom color mode: 1
 ```
 
 ---
 
 ### 🖼️ Input
-![Input Image](./examples/3input.jpg)
+![Input Image](./examples/3input.jpeg)
 
 ### 🎨 Output
 ![Output Image](./examples/3output.png)
@@ -100,4 +100,3 @@ Enter your custom tint color (RGB values 0-255):
 Red (0-255): 255           
 Green (0-255): 26          
 Blue (0-255): 102          
-```
