@@ -20,7 +20,7 @@ if mode == 2:
 
 
 def create_custom_palette(base_color, num_colors):
-    """Creates a palette from black to your color to white"""
+
     r, g, b = base_color
     palette = []
     
